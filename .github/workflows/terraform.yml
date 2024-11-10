@@ -82,13 +82,13 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         enable-AzPSSession: true
 
-    - name: Reconfigure
-      run: terraform init -reconfigure
+   # - name: Reconfigure
+   #   run: terraform init -reconfigure
   
 
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
-      run: terraform init -migrate-state
+      run: terraform init
 
     # Checks that all Terraform configuration files adhere to a canonical format
     #- name: Terraform Format
