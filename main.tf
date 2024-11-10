@@ -10,7 +10,7 @@
 # Setting block
 terraform {
 #Required Version
-required_version = ">0.13"
+required_version = ">0.14"
 
 #Required Terraform provider
 
