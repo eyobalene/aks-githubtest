@@ -42,3 +42,9 @@ variable "environment" {
     default = "nprod"
     description = "L'env de Nprod"
 }
+
+variable "client_secret" {
+    type = string
+    default = "IgF8Q~ESsLVIw~sduvxvjuZtfx7~frMnScWx0cd~"
+  
+}
