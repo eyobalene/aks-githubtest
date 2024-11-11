@@ -36,6 +36,7 @@ backend "azurerm" {
   storage_account_name = "eyoberraformstorage"
   container_name = "tfstatefile"
   key = "customvnet.terraform.tfstate"
+  use_oidc = true
   
 }
   
