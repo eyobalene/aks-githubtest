@@ -39,6 +39,7 @@ backend "azurerm" {
   
   
 }
+}
 
 
 #5. terraform Provider Block FOR AzureRM
