@@ -31,7 +31,7 @@ random = {
 }
 }
 #Terraform Stage storage to AzurerRM storage container
-backend "azurerm" {
+/* backend "azurerm" {
   resource_group_name = "terraformRG"
   storage_account_name = "eyoberraformstorage"
   container_name = "tfstatefile"
@@ -39,6 +39,7 @@ backend "azurerm" {
   
   
 }
+*/
 }
 
 
