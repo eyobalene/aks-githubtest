@@ -36,7 +36,7 @@ backend "azurerm" {
   storage_account_name = "eyoberraformstorage"
   container_name = "tfstatefile"
   key = "customvnet.terraform.tfstate"
-  use_oidc = true
+  
   
 }
   
@@ -48,12 +48,6 @@ provider "azurerm" {
      use_oidc = true
       
     }
-    /*
-    client_id       = "7dd2de5a-f69e-4cc9-80b7-04367b318d94"
-    client_secret   = var.client_secret
-    tenant_id       = "837f24c8-eaf4-44ce-99db-bc07666bc961"
-    subscription_id = "648dfb1f-869a-4ae6-8f5f-1f5d84c0fd45"
-*/
 }
 
 #4. terraform Resource BLOCK ?: define a random Pet
