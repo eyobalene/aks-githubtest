@@ -46,7 +46,7 @@ random = {
 #5. terraform Provider Block FOR AzureRM
 provider "azurerm" {
     features {
-     use_oidc = true
+     
       
     }
 }
