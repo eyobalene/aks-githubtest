@@ -46,5 +46,6 @@ variable "environment" {
 variable "client_secret" {
     type = string
     default = "IgF8Q~ESsLVIw~sduvxvjuZtfx7~frMnScWx0cd~"
-  */
+  
 }
+*/
