@@ -20,9 +20,9 @@ azurerm = {
   source = "hashicorp/azurerm"
   version = "~> 4.0"
 }
-azuread = {
-  source = "hashicorp/azuread"
-  version = "~> 3.0"
+#azuread = {
+ # source = "hashicorp/azuread"
+  #version = "~> 3.0"
 
 }
 random = {
@@ -39,8 +39,7 @@ backend "azurerm" {
   
   
 }
-  
-}
+
 
 #5. terraform Provider Block FOR AzureRM
 provider "azurerm" {
