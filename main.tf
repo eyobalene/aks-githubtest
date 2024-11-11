@@ -45,6 +45,7 @@ random = {
 
 #5. terraform Provider Block FOR AzureRM
 provider "azurerm" {
+subscription_id = "648dfb1f-869a-4ae6-8f5f-1f5d84c0fd45"
     features {
      
       
