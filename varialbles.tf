@@ -14,7 +14,7 @@ variable "location" {
 
 variable "resource_group_name" {
     type = string
-    default = "protectiondesdonnes"
+    default = "protectiondesdonne"
     description = "RG d'AKS"
   
 }
